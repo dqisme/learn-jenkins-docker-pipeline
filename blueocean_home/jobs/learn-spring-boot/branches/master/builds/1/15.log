@@ -1,0 +1,3 @@
+[learn-spring-boot_master-5IZRILFYVP2NZBJIL3PT27FDJGNXJW5ANMIZNCK2UNPCCMTZMW2A] Running shell script
++ docker inspect -f . openjdk:8-jre
+.

@@ -1,0 +1,5 @@
+[learn-spring-boot_master-5IZRILFYVP2NZBJIL3PT27FDJGNXJW5ANMIZNCK2UNPCCMTZMW2A] Running shell script
++ java -version
+openjdk version "1.8.0_141"
+OpenJDK Runtime Environment (build 1.8.0_141-8u141-b15-1~deb9u1-b15)
+OpenJDK 64-Bit Server VM (build 25.141-b15, mixed mode)

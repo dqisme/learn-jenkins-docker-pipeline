@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<jenkins.branch.MultiBranchProject_-State plugin="branch-api@2.0.11">
+  <sourceActions>
+    <entry>
+      <string>d21bcdfc-af27-4a8c-b7de-78b9ba3e899d</string>
+      <list>
+        <jenkins.plugins.git.GitRemoteHeadRefAction plugin="git@3.5.0">
+          <remote>https://github.com/dqisme/learn-spring-boot.git</remote>
+          <name>master</name>
+        </jenkins.plugins.git.GitRemoteHeadRefAction>
+      </list>
+    </entry>
+  </sourceActions>
+</jenkins.branch.MultiBranchProject_-State>

@@ -1,0 +1,18 @@
+Cloning the remote Git repository
+Cloning with configured refspecs honoured and without tags
+Cloning repository https://github.com/dqisme/learn-spring-boot.git
+ > git init /var/jenkins_home/workspace/learn-spring-boot_master-5IZRILFYVP2NZBJIL3PT27FDJGNXJW5ANMIZNCK2UNPCCMTZMW2A # timeout=10
+Fetching upstream changes from https://github.com/dqisme/learn-spring-boot.git
+ > git --version # timeout=10
+ > git fetch --no-tags --progress https://github.com/dqisme/learn-spring-boot.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/dqisme/learn-spring-boot.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/dqisme/learn-spring-boot.git # timeout=10
+Fetching without tags
+Fetching upstream changes from https://github.com/dqisme/learn-spring-boot.git
+ > git fetch --no-tags --progress https://github.com/dqisme/learn-spring-boot.git +refs/heads/*:refs/remotes/origin/*
+Checking out Revision 060bb8cc4259cc63137600de7327481e69b2579d (master)
+Commit message: "[dq] #N/A add jenkinsfile"
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 060bb8cc4259cc63137600de7327481e69b2579d
+First time build. Skipping changelog.

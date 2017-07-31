@@ -1,0 +1,99 @@
+Branch indexing
+ > git rev-parse --is-inside-work-tree # timeout=10
+Setting origin to https://github.com/dqisme/learn-spring-boot.git
+ > git config remote.origin.url https://github.com/dqisme/learn-spring-boot.git # timeout=10
+Fetching origin...
+Fetching upstream changes from origin
+ > git --version # timeout=10
+ > git fetch --tags --progress origin +refs/heads/*:refs/remotes/origin/*
+Seen branch in repository origin/master
+Seen 1 remote branch
+Obtained Jenkinsfile from 060bb8cc4259cc63137600de7327481e69b2579d
+[8mha:////4DWQnunBUo4+p/6huk0KxcnzTFCUl0NrHQNstW9AOw/+AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] node
+Running on master in /var/jenkins_home/workspace/learn-spring-boot_master-5IZRILFYVP2NZBJIL3PT27FDJGNXJW5ANMIZNCK2UNPCCMTZMW2A
+[8mha:////4DWQnunBUo4+p/6huk0KxcnzTFCUl0NrHQNstW9AOw/+AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4DWQnunBUo4+p/6huk0KxcnzTFCUl0NrHQNstW9AOw/+AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4DWQnunBUo4+p/6huk0KxcnzTFCUl0NrHQNstW9AOw/+AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4DWQnunBUo4+p/6huk0KxcnzTFCUl0NrHQNstW9AOw/+AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] checkout
+Cloning the remote Git repository
+Cloning with configured refspecs honoured and without tags
+Cloning repository https://github.com/dqisme/learn-spring-boot.git
+ > git init /var/jenkins_home/workspace/learn-spring-boot_master-5IZRILFYVP2NZBJIL3PT27FDJGNXJW5ANMIZNCK2UNPCCMTZMW2A # timeout=10
+Fetching upstream changes from https://github.com/dqisme/learn-spring-boot.git
+ > git --version # timeout=10
+ > git fetch --no-tags --progress https://github.com/dqisme/learn-spring-boot.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/dqisme/learn-spring-boot.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/dqisme/learn-spring-boot.git # timeout=10
+Fetching without tags
+Fetching upstream changes from https://github.com/dqisme/learn-spring-boot.git
+ > git fetch --no-tags --progress https://github.com/dqisme/learn-spring-boot.git +refs/heads/*:refs/remotes/origin/*
+Checking out Revision 060bb8cc4259cc63137600de7327481e69b2579d (master)
+Commit message: "[dq] #N/A add jenkinsfile"
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 060bb8cc4259cc63137600de7327481e69b2579d
+First time build. Skipping changelog.
+[8mha:////4DWQnunBUo4+p/6huk0KxcnzTFCUl0NrHQNstW9AOw/+AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4DWQnunBUo4+p/6huk0KxcnzTFCUl0NrHQNstW9AOw/+AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4DWQnunBUo4+p/6huk0KxcnzTFCUl0NrHQNstW9AOw/+AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4DWQnunBUo4+p/6huk0KxcnzTFCUl0NrHQNstW9AOw/+AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Declarative: Agent Setup)
+[8mha:////4DWQnunBUo4+p/6huk0KxcnzTFCUl0NrHQNstW9AOw/+AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[learn-spring-boot_master-5IZRILFYVP2NZBJIL3PT27FDJGNXJW5ANMIZNCK2UNPCCMTZMW2A] Running shell script
++ docker pull openjdk:8-jre
+8-jre: Pulling from library/openjdk
+06b22ddb1913: Already exists
+336c28b408ed: Already exists
+1f3e6b8d80c3: Already exists
+aeac59510475: Pulling fs layer
+b01db8bd8540: Pulling fs layer
+f7f398af5fea: Pulling fs layer
+1c5595fa1317: Pulling fs layer
+e1a6cc83dc3d: Pulling fs layer
+1c5595fa1317: Waiting
+e1a6cc83dc3d: Waiting
+b01db8bd8540: Verifying Checksum
+b01db8bd8540: Download complete
+f7f398af5fea: Verifying Checksum
+f7f398af5fea: Download complete
+aeac59510475: Download complete
+aeac59510475: Pull complete
+b01db8bd8540: Pull complete
+f7f398af5fea: Pull complete
+e1a6cc83dc3d: Verifying Checksum
+e1a6cc83dc3d: Download complete
+1c5595fa1317: Verifying Checksum
+1c5595fa1317: Download complete
+1c5595fa1317: Pull complete
+e1a6cc83dc3d: Pull complete
+Digest: sha256:778ed3bfa1165964c12412c1c32259b4d45406f74728f0518e9036427e43337b
+Status: Downloaded newer image for openjdk:8-jre
+[8mha:////4DWQnunBUo4+p/6huk0KxcnzTFCUl0NrHQNstW9AOw/+AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4DWQnunBUo4+p/6huk0KxcnzTFCUl0NrHQNstW9AOw/+AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4DWQnunBUo4+p/6huk0KxcnzTFCUl0NrHQNstW9AOw/+AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[learn-spring-boot_master-5IZRILFYVP2NZBJIL3PT27FDJGNXJW5ANMIZNCK2UNPCCMTZMW2A] Running shell script
++ docker inspect -f . openjdk:8-jre
+.
+[8mha:////4DWQnunBUo4+p/6huk0KxcnzTFCUl0NrHQNstW9AOw/+AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] withDockerContainer
+Jenkins seems to be running inside container 1684a330fd09e9265c3b9e9ac11c3c786c2225f9284eab377d71e1b09db9f970
+$ docker run -t -d -u 1000:1000 -w /var/jenkins_home/workspace/learn-spring-boot_master-5IZRILFYVP2NZBJIL3PT27FDJGNXJW5ANMIZNCK2UNPCCMTZMW2A --volumes-from 1684a330fd09e9265c3b9e9ac11c3c786c2225f9284eab377d71e1b09db9f970 -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** --entrypoint cat openjdk:8-jre
+[8mha:////4DWQnunBUo4+p/6huk0KxcnzTFCUl0NrHQNstW9AOw/+AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4DWQnunBUo4+p/6huk0KxcnzTFCUl0NrHQNstW9AOw/+AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4DWQnunBUo4+p/6huk0KxcnzTFCUl0NrHQNstW9AOw/+AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (build)
+[8mha:////4DWQnunBUo4+p/6huk0KxcnzTFCUl0NrHQNstW9AOw/+AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] echo
+Hello, JDK
+[8mha:////4DWQnunBUo4+p/6huk0KxcnzTFCUl0NrHQNstW9AOw/+AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[learn-spring-boot_master-5IZRILFYVP2NZBJIL3PT27FDJGNXJW5ANMIZNCK2UNPCCMTZMW2A] Running shell script
++ java -version
+openjdk version "1.8.0_141"
+OpenJDK Runtime Environment (build 1.8.0_141-8u141-b15-1~deb9u1-b15)
+OpenJDK 64-Bit Server VM (build 25.141-b15, mixed mode)
+[8mha:////4DWQnunBUo4+p/6huk0KxcnzTFCUl0NrHQNstW9AOw/+AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4DWQnunBUo4+p/6huk0KxcnzTFCUl0NrHQNstW9AOw/+AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4DWQnunBUo4+p/6huk0KxcnzTFCUl0NrHQNstW9AOw/+AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+$ docker stop --time=1 2ec231645532e54e0faadbda46af5c02ff1cafef5e0671264b1de848bf57bc18
+$ docker rm -f 2ec231645532e54e0faadbda46af5c02ff1cafef5e0671264b1de848bf57bc18
+[8mha:////4DWQnunBUo4+p/6huk0KxcnzTFCUl0NrHQNstW9AOw/+AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // withDockerContainer
+[8mha:////4DWQnunBUo4+p/6huk0KxcnzTFCUl0NrHQNstW9AOw/+AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4DWQnunBUo4+p/6huk0KxcnzTFCUl0NrHQNstW9AOw/+AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // node
+[8mha:////4DWQnunBUo4+p/6huk0KxcnzTFCUl0NrHQNstW9AOw/+AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] End of Pipeline
+Finished: SUCCESS

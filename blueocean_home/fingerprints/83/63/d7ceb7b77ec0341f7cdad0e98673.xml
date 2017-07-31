@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2017-07-31 14:44:48.185 UTC</timestamp>
+  <original>
+    <name>learn-spring-boot/master</name>
+    <number>1</number>
+  </original>
+  <md5sum>8363d7ceb7b77ec0341f7cdad0e98673</md5sum>
+  <fileName>Docker image sha256:8363d7ceb7b77ec0341f7cdad0e98673fc3bbcee82266ba1f1e068bdb0e34378</fileName>
+  <usages/>
+  <facets>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet plugin="docker-commons@1.8">
+      <timestamp>1501512288207</timestamp>
+      <imageId>sha256:8363d7ceb7b77ec0341f7cdad0e98673fc3bbcee82266ba1f1e068bdb0e34378</imageId>
+      <usages>
+        <entry>
+          <string>learn-spring-boot/master</string>
+          <ranges>1</ranges>
+        </entry>
+      </usages>
+      <records class="java.util.concurrent.CopyOnWriteArrayList">
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>2ec231645532</host>
+          <containerId>2ec231645532e54e0faadbda46af5c02ff1cafef5e0671264b1de848bf57bc18</containerId>
+          <containerName>/peaceful_lamarr</containerName>
+          <created>1501512287000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+      </records>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet>
+  </facets>
+</fingerprint>
