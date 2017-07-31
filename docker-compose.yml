@@ -1,0 +1,10 @@
+version: '2'
+services:
+  jenkins:
+    build: .
+    ports:
+      - "18080:8080"
+      - "50000:50000"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ./blueocean_home:/var/jenkins_home
